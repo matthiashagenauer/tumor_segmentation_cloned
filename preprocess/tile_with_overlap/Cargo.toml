@@ -1,0 +1,23 @@
+[package]
+name = "tile_with_overlap"
+version = "0.1.0"
+authors = ["Ole-Johan Skrede <skrede@protonmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0"
+clap = "2.33"
+csv = "1.2"
+chrono = "0.4"
+image = "0.24"
+indicatif = "0.17"
+itertools = "0.10"
+png = "0.17"
+rayon = "1.7"
+time = "0.3"
+walkdir = "2.3"
+ndarray = "0.15"
+serde = { version="1.0", features=["derive"] }
+num-traits = "0.2"

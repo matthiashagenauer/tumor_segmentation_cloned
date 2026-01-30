@@ -1,0 +1,39 @@
+encoder = "timm-eca-nfnet-l3"
+decoder = "deeplabv3plus_gn"
+
+initialise_decoder = false
+
+classes = [ 0, 127, 255]
+
+num_gpus = 8
+num_workers = 32
+
+batch_size = 24
+target_height = 1536
+target_width = 1536
+
+distort_basic = true
+distort_bc = true
+distort_hsv = true
+distort_morphology = false
+
+agc = false
+amp = true
+ema = false
+
+loss_function_1 = "dice"
+loss_function_2 = "ce_top90"
+
+initial_step_length = 1e-4
+schedule_1 = "additative"
+schedule_1_config = {update_frequency=10, addend=1e-4}
+schedule_2 = "cosine"
+schedule_2_config = {}
+switch_schedule = 1000
+max_steps = 500000
+
+monitor_progress = 20
+monitor_performance = 200
+monitor_input = 1000
+
+periodic_checkpoint = 50000
