@@ -5,7 +5,7 @@ foreground (cancerous tissue) and background (everything else).
 
 This repository contains code used to develop and validate the method presented in the
 study titled *Generalisation of automatic tumour segmentation in histopathological
-whole-slide images across multiple cancer types* (`https://arxiv.org/abs/2510.11182`)
+whole-slide images across multiple cancer types* ([https://arxiv.org/abs/2510.11182](https://arxiv.org/abs/2510.11182))
 
 ## Docker
 
