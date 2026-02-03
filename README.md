@@ -7,6 +7,11 @@ This repository contains code used to develop and validate the method presented 
 study titled *Generalisation of automatic tumour segmentation in histopathological
 whole-slide images across multiple cancer types* ([https://arxiv.org/abs/2510.11182](https://arxiv.org/abs/2510.11182))
 
+## Trained model
+
+The primary model presented in the associated study can be downloaded here: [https://zenodo.org/records/18465589](https://zenodo.org/records/18465589)
+
+
 ## Docker
 
 In the project root directory, build the image defined by the `Dockerfile`.
