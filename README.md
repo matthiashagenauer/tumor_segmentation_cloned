@@ -11,6 +11,8 @@ whole-slide images across multiple cancer types* ([https://arxiv.org/abs/2510.11
 
 The primary model presented in the associated study can be downloaded here: [https://zenodo.org/records/18465589](https://zenodo.org/records/18465589)
 
+Results from applying this model on WSIs from the datasets BLCA, LUAD, LUSC, and PRAD
+from The Cancer Genome Atlas (TCGA) can be accessed here: [https://zenodo.org/records/18481478](https://zenodo.org/records/18481478)
 
 ## Docker
 
