@@ -29,6 +29,8 @@ echo "Running tumour segmentation."
 echo "----------------------------"
 echo "Running Tiling."
 echo "----------------------------"
+
+# instead of explicit filename (e.g. R20-8433_HEII_CLO.mrxs) you can also put wildcard (e.g. *.mrxs)
 apptainer exec --nv \
   --bind /net/beegfs/groups/mmai/clonality/data:/data \
   tumour-segmentation_preprocessing.sif \
